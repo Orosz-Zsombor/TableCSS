@@ -1,0 +1,61 @@
+table{ 
+    background-image: url(water.jpg);
+    table-layout: inherit;
+    border-collapse: collapse;
+    empty-cells: hide;
+    margin: auto;
+    border-bottom: 1em solid darkmagenta;
+}
+
+#valami{
+    border: solid 1em yellow;
+    width: 10em;
+}
+caption{
+    font-weight: bolder;
+    font-size: 10em;
+    text-align: center;
+    color: blue;
+    background-color: purple;
+    border: dotted;
+}
+td{
+    background-color: crimson;
+    border:outset 1em;
+}
+th{
+    margin: auto;
+    border-left: 3em double black;
+    border-right:3em double blue;
+
+}
+caption :hover{
+    color:black;
+    background-color: royalblue;
+    transition: 2s;
+}
+
+
+
+table :hover{
+    background-image: url(water.jpg);
+    border: green solid;
+    padding: 20px;
+    transition: 0.9s;
+
+}
+
+ol{
+    font-size: large;
+    color: 1em black;
+    background-color: white;
+}
+body{
+    background-color: burlywood;
+    margin: 1em;
+    border: dashed;
+    padding: 5px;
+}
+.tr2{
+    background: teal;
+}
